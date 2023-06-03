@@ -1,2 +1,3 @@
-2023/06/03-02:06:23.664 29f8 Creating DB C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\Local Storage\leveldb since it was missing.
-2023/06/03-02:06:23.680 29f8 Reusing MANIFEST C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\Local Storage\leveldb/MANIFEST-000001
+2023/06/03-03:20:28.903 12b8 Reusing MANIFEST C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\Local Storage\leveldb/MANIFEST-000001
+2023/06/03-03:20:28.904 12b8 Recovering log #3
+2023/06/03-03:20:28.904 12b8 Reusing old log C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\Local Storage\leveldb/000003.log 

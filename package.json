@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@open-wa/wa-automate": "^4.66.3"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }

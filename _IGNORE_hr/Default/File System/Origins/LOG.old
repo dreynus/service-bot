@@ -1,2 +1,3 @@
-2023/06/03-02:06:25.672 1cb8 Creating DB C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\File System\Origins since it was missing.
-2023/06/03-02:06:25.698 1cb8 Reusing MANIFEST C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\File System\Origins/MANIFEST-000001
+2023/06/03-03:20:29.967 1098 Reusing MANIFEST C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\File System\Origins/MANIFEST-000001
+2023/06/03-03:20:29.967 1098 Recovering log #3
+2023/06/03-03:20:29.968 1098 Reusing old log C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\File System\Origins/000003.log 
