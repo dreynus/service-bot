@@ -1,0 +1,60 @@
+2023/06/03-02:06:24.823 1f60 Creating DB C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/06/03-02:06:24.838 1f60 Reusing MANIFEST C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/03-02:06:25.050 1cb8 Level-0 table #5: started
+2023/06/03-02:06:25.057 1cb8 Level-0 table #5: 7376 bytes OK
+2023/06/03-02:06:25.064 1cb8 Delete type=0 #3
+2023/06/03-02:06:25.066 1cb8 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/06/03-02:06:25.977 1f48 Level-0 table #7: started
+2023/06/03-02:06:25.981 1f48 Level-0 table #7: 17769 bytes OK
+2023/06/03-02:06:25.986 1f48 Delete type=0 #4
+2023/06/03-02:06:25.991 1cb8 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/06/03-02:07:01.399 1f48 Level-0 table #9: started
+2023/06/03-02:07:01.461 1f48 Level-0 table #9: 1087013 bytes OK
+2023/06/03-02:07:01.467 1f48 Delete type=0 #6
+2023/06/03-02:07:02.262 1f60 Compacting 1@0 + 1@1 files
+2023/06/03-02:07:02.316 1f60 Generated table #10@0: 28110 keys, 698143 bytes
+2023/06/03-02:07:02.316 1f60 Compacted 1@0 + 1@1 files => 698143 bytes
+2023/06/03-02:07:02.319 1f60 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/03-02:07:12.305 1f60 Level-0 table #12: started
+2023/06/03-02:07:12.346 1f60 Level-0 table #12: 1170722 bytes OK
+2023/06/03-02:07:12.351 1f60 Delete type=2 #7
+2023/06/03-02:07:12.351 1f60 Delete type=0 #8
+2023/06/03-02:07:12.351 1f60 Delete type=2 #9
+2023/06/03-02:07:12.353 1f60 Compacting 1@0 + 1@1 files
+2023/06/03-02:07:12.450 1f60 Generated table #13@0: 43522 keys, 1727537 bytes
+2023/06/03-02:07:12.450 1f60 Compacted 1@0 + 1@1 files => 1727537 bytes
+2023/06/03-02:07:12.458 1f60 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/03-02:07:12.458 1f60 Delete type=2 #10
+2023/06/03-02:07:12.458 1f60 Delete type=2 #12
+2023/06/03-02:07:12.860 1f60 Level-0 table #15: started
+2023/06/03-02:07:12.928 1f60 Level-0 table #15: 1181481 bytes OK
+2023/06/03-02:07:12.938 1f60 Delete type=0 #11
+2023/06/03-02:07:12.946 1f48 Compacting 1@0 + 1@1 files
+2023/06/03-02:07:13.100 1f48 Generated table #16@0: 47677 keys, 2234793 bytes
+2023/06/03-02:07:13.117 1f48 Generated table #17@0: 10132 keys, 250066 bytes
+2023/06/03-02:07:13.117 1f48 Compacted 1@0 + 1@1 files => 2484859 bytes
+2023/06/03-02:07:13.120 1f48 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/06/03-02:07:13.120 1f48 Delete type=2 #13
+2023/06/03-02:07:13.120 1f48 Delete type=2 #15
+2023/06/03-02:07:34.862 1cb8 Compacting 1@1 + 1@2 files
+2023/06/03-02:07:34.941 1cb8 Generated table #18@1: 14248 keys, 1961583 bytes
+2023/06/03-02:07:34.941 1cb8 Compacted 1@1 + 1@2 files => 1961583 bytes
+2023/06/03-02:07:34.944 1cb8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/03-02:07:34.944 1cb8 Delete type=2 #5
+2023/06/03-02:07:34.944 1cb8 Delete type=2 #16
+2023/06/03-02:07:37.463 1f60 Level-0 table #20: started
+2023/06/03-02:07:37.509 1f60 Level-0 table #20: 1064622 bytes OK
+2023/06/03-02:07:37.514 1f60 Delete type=0 #14
+2023/06/03-02:07:37.850 1f60 Compacting 1@0 + 1@1 files
+2023/06/03-02:07:37.908 1f60 Generated table #21@0: 43376 keys, 842559 bytes
+2023/06/03-02:07:37.908 1f60 Compacted 1@0 + 1@1 files => 842559 bytes
+2023/06/03-02:07:37.910 1f60 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/06/03-02:07:37.911 1f60 Delete type=2 #17
+2023/06/03-02:07:37.911 1f60 Delete type=2 #20
+2023/06/03-02:07:38.062 1f60 Compacting 1@1 + 1@2 files
+2023/06/03-02:07:38.157 1f60 Generated table #22@1: 19975 keys, 2203511 bytes
+2023/06/03-02:07:38.186 1f60 Generated table #23@1: 18286 keys, 429075 bytes
+2023/06/03-02:07:38.187 1f60 Compacted 1@1 + 1@2 files => 2632586 bytes
+2023/06/03-02:07:38.189 1f60 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/06/03-02:07:38.189 1f60 Delete type=2 #18
+2023/06/03-02:07:38.189 1f60 Delete type=2 #21

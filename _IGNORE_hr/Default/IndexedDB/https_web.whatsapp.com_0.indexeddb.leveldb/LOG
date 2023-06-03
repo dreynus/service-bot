@@ -1,0 +1,14 @@
+2023/06/03-02:11:44.500 2ebc Reusing MANIFEST C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/03-02:11:44.504 2ebc Recovering log #19
+2023/06/03-02:11:44.559 2ebc Reusing old log C:\Users\dreen\Documents\GitHub\service-bot\_IGNORE_hr\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000019.log 
+2023/06/03-02:12:11.441 1f34 Level-0 table #26: started
+2023/06/03-02:12:11.492 1f34 Level-0 table #26: 1074395 bytes OK
+2023/06/03-02:12:11.498 1f34 Delete type=0 #19
+2023/06/03-02:12:12.476 1f34 Compacting 1@1 + 2@2 files
+2023/06/03-02:12:12.572 1f34 Generated table #27@1: 20361 keys, 2207965 bytes
+2023/06/03-02:12:12.615 1f34 Generated table #28@1: 31722 keys, 870464 bytes
+2023/06/03-02:12:12.615 1f34 Compacted 1@1 + 2@2 files => 3078429 bytes
+2023/06/03-02:12:12.618 1f34 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/06/03-02:12:12.618 1f34 Delete type=2 #22
+2023/06/03-02:12:12.618 1f34 Delete type=2 #23
+2023/06/03-02:12:12.618 1f34 Delete type=2 #26
