@@ -1,22 +1,27 @@
 const msgs_Texto = require('../libs/msgs.js');
 
-function handleCommands (client, message) {
+async function handleCommands(client, message) {
   const { body } = message;
-  const lowerCaseBody = body.toLowerCase(); 
+  const lowerCaseBody = body.toLowerCase();
 
-  switch (lowerCaseBody) {
-    case 'olá':
-    case 'oi':
-    case 'eae':
-    case 'ola':
-    case 'bom dia':
-    case 'boa noite':
-    case 'boa tarde':
-      client.sendText(message.from, msgs_Texto.saudacao)
+
+  if (!lowerCaseBody.startsWith('?')) {
+    // Ignorar mensagens que não começam com "?"
+    return;
+  }
+
+  switch (command) {
+    case '?info':
+      client.sendText(message.from, msgs_Texto.info);
+      break;
+
+    case '?ajuda':
+      client.sendText(message.from, msgs_Texto.ajuda);
       break;
 
     default:
-      client.sendText(message.from, msgs_Texto.default)
+      client.sendText(message.from, msgs_Texto.default);
+      break;
   }
 }
 

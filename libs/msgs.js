@@ -15,15 +15,43 @@ const msgHora = getHorarioMsg(data.getHours());
 
 
 const msgs_Texto = {
-  saudacao: `
-  Olá, ${msgHora} Agradeço pelo contato.
+  info: `
+Olá, ${msgHora} Agradeço pelo contato.
   
-  Para saber sobre ... Envie "...".
-  (Sem as aspas)
+Visite nosso site para uma visão geral:
+https://gcanaisiptv.github.io/canais-iptv/
+
+Para saber mais sobre... Envie: *?ajuda*`,
+
+  ajuda: `
+╭─| ☾ *AJUDA* ☽
+|
+|>---- ☾ *MARCAS* ☽
+|
+|>- Para saber qual app para sua marca:
+|Digite *?marca*, substituindo o "marca" pela marca de seu dispositivo.
+|
+|>- Marcas disponíveis:
+|>- *?samsung*
+|>- *?lg*
+|>- *...*
+|
+|
+|>---- ☾ *SESSÃO 2* ☽
+|
+|>- Mais coisas podem ser adicionadas conforme precisar...
+|
+┗━────────────
   `,
 
+  mencao: `
+Olá! Sou o BOT de tira-dúvidas deste grupo. 
+Se você tem alguma pergunta, basta digitar o comando correspondente. 
+  
+Para ver a lista de comandos disponíveis, envie *?ajuda*
+  `,
 
-  default: "Desculpe, não entendi sua mensagem."
+  default: "Desculpe, Não entendi seu comando.."
 }
 
 module.exports = msgs_Texto;
