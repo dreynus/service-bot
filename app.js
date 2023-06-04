@@ -1,5 +1,5 @@
 const { create, Client } = require('@open-wa/wa-automate');
-const handleCommands = require('./comandos/comandos.js');
+const { handleCommands } = require('./comandos/comandos.js');
 
 const launchConfig = {
   useChrome: true,
@@ -9,8 +9,8 @@ const launchConfig = {
 };
 
 function start(client) {
-  client.onMessage(async message => {
-    handleCommands(client, message);
+  client.onMessage(async (message) => {
+    handleCommands(client, message); // Passa o objeto client para a função handleCommands
   });
 }
 

@@ -51,6 +51,13 @@ Se você tem alguma pergunta, basta digitar o comando correspondente.
 Para ver a lista de comandos disponíveis, envie *?ajuda*
   `,
 
+  admin: {
+    bctodos: {
+      espera: "Enviando anúncio para {0} chats...",
+      anuncio: "{0}"
+    }
+  },
+
   default: "Desculpe, Não entendi seu comando.."
 }
 
