@@ -1,4 +1,6 @@
 # BOT de Automação para Whatsapp
+
+<img align="right" alt="GIF" height="125px" src="https://media.giphy.com/media/9yRMxLuRqyQ0x3jJXD/giphy.webp" />
  
 **Apresentando um incrível BOT para WhatsApp que obedece aos seus comandos!**
 
