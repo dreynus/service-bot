@@ -1,4 +1,5 @@
 const msgs_Texto = require('../libs/msgs.js');
+const colors = require('colors');
 
 function criarTexto(texto, ...args) {
   return texto.replace(/{(\d+)}/g, (match, index) => {
@@ -10,8 +11,10 @@ function erroComandoMsg(comando) {
   return `Erro: Comando inválido "${comando}".`;
 }
 
-
-
+function getCurrentDateTime() {
+  const now = new Date();
+  return `${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
+}
 
 async function handleCommands(client, message) {
   const { body } = message;
@@ -28,15 +31,20 @@ async function handleCommands(client, message) {
   const command = lowerCaseBody.split(' ')[0]; // Extrai o comando da mensagem
 
   switch (command) {
+    // User
     case '?info':
+      console.log(`[${message.isGroupMsg ? colors.yellow('GRUPO') : colors.red('PRIVADO')} - INFO] ${colors.cyan(getCurrentDateTime())} - ${colors.magenta('!info')} de ${colors.magenta(message.sender.pushname)}`);
       client.sendText(message.from, msgs_Texto.info);
       break;
 
     case '?ajuda':
+      console.log(`[${message.isGroupMsg ? colors.yellow('GRUPO') : colors.red('PRIVADO')} - AJUDA] ${colors.cyan(getCurrentDateTime())} - ${colors.magenta('!ajuda')} de ${colors.magenta(message.sender.pushname)}`);
       client.sendText(message.from, msgs_Texto.ajuda);
       break;
 
+    // ADMIN
     case '?anuncio':
+      console.log(`[${message.isGroupMsg ? colors.yellow('GRUPO') : colors.red('PRIVADO')} - ANÚNCIO] ${colors.cyan(getCurrentDateTime())} - !anuncio de ${message.sender.pushname}`);
       if (args.length === 0) return await client.reply(message.from, erroComandoMsg(command), message.id);
       const comando = args.shift(); // Remove o primeiro elemento que é o comando "?anuncio"
       const mensagem = args.join(' ').trim();
@@ -72,8 +80,10 @@ async function handleCommands(client, message) {
       }
       break;
 
+    // Default
     default:
       client.sendText(message.from, msgs_Texto.default);
+      console.log(`[${message.isGroupMsg ? colors.yellow('GRUPO') : colors.red('PRIVADO')} - DESCONHECIDO] ${colors.cyan(getCurrentDateTime())} - ${colors.magenta(command)} de ${message.sender.pushname}`);
       break;
   }
 }
