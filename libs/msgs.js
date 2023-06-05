@@ -24,22 +24,18 @@ https://gcanaisiptv.github.io/canais-iptv/
 Para saber mais sobre... Envie: *?ajuda*`,
 
   ajuda: `
-╭─| ☾ *AJUDA* ☽
+╭─| ☾ ** ☽
 |
-|>---- ☾ *MARCAS* ☽
+|>---- ☾ ** ☽
 |
-|>- Para saber qual app para sua marca:
-|Digite *?marca*, substituindo o "marca" pela marca de seu dispositivo.
+|>-
 |
-|>- Marcas disponíveis:
-|>- *?samsung*
-|>- *?lg*
-|>- *...*
+|>- 
 |
 |
-|>---- ☾ *SESSÃO 2* ☽
+|>---- ☾ ** ☽
 |
-|>- Mais coisas podem ser adicionadas conforme precisar...
+|>-
 |
 ┗━────────────
   `,

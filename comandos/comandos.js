@@ -23,8 +23,8 @@ async function handleCommands(client, message) {
   var args = lowerCaseBody.split(' ');
   args.shift(); // Remover o primeiro elemento que é o comando '?anuncio'
 
-  if (!lowerCaseBody.startsWith('?')) {
-    // Ignorar mensagens que não começam com "?"
+  if (!lowerCaseBody.startsWith('!')) {
+    // Ignorar mensagens que não começam com "!"
     return;
   }
 
@@ -32,18 +32,18 @@ async function handleCommands(client, message) {
 
   switch (command) {
     // User
-    case '?info':
+    case '!info':
       console.log(`[${message.isGroupMsg ? colors.yellow('GRUPO') : colors.red('PRIVADO')} - INFO] ${colors.cyan(getCurrentDateTime())} - ${colors.magenta('!info')} de ${colors.magenta(message.sender.pushname)}`);
       client.sendText(message.from, msgs_Texto.info);
       break;
 
-    case '?ajuda':
+    case '!ajuda':
       console.log(`[${message.isGroupMsg ? colors.yellow('GRUPO') : colors.red('PRIVADO')} - AJUDA] ${colors.cyan(getCurrentDateTime())} - ${colors.magenta('!ajuda')} de ${colors.magenta(message.sender.pushname)}`);
       client.sendText(message.from, msgs_Texto.ajuda);
       break;
 
     // ADMIN
-    case '?anuncio':
+    case '!anuncio':
       console.log(`[${message.isGroupMsg ? colors.yellow('GRUPO') : colors.red('PRIVADO')} - ANÚNCIO] ${colors.cyan(getCurrentDateTime())} - !anuncio de ${message.sender.pushname}`);
       if (args.length === 0) return await client.reply(message.from, erroComandoMsg(command), message.id);
       const comando = args.shift(); // Remove o primeiro elemento que é o comando "?anuncio"
